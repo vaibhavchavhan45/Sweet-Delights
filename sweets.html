@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    border: 2px solid blue;
+    float: left;
+    box-sizing: border-box;
+}
+
+#brand {
+    margin-left: 30px;
+    font-family: sans-serif;
+    float: left;
+    padding-top: 5px;
+}
+
+#tagline {
+    font-family: century gothic;
+    float: right;
+    padding-top: 14px;
+    margin-right: 30px;
+}
+
+#navbar {
+    height: 120px;
+    width: 100%;
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+#searchbar {
+    height: 40px;
+    width: 400px;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 13px;
+    border: none;
+    padding-left: 10px;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+#submitbutton {
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left: 3px;
+    border: none;
+    float: left;
+    box-sizing: border-box;
+}
+
+#menutable {
+    height: 40px;
+    width: 600px;
+    margin-right: 30px;
+    margin-top: 13px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.menurow {
+    background-color: white;
+    width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.menuitem {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+section {
+    height: 1630px;
+    width: 99.9%;
+    border: solid 2px blue;
+    box-sizing: border-box;
+}
+#heading_more_sweets {
+    font-size: 40px;
+    font-family: century gothic;
+    position: absolute;
+    top: 147px;
+    left: 45%;
+}
+.smalldiv,.smalldiv1,.smalldiv2,.smalldiv3,.smalldiv4{
+    width: 220px;
+    height: 250px;
+    border: 1px solid #ccc;
+    margin-right: 27.8px;
+    box-sizing: border-box;
+    
+}
+
+#parentdiv {
+    display: flex;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+   
+}
+
+
+#parentdiv1 {
+    display: flex;
+    position: absolute;
+    top: 530px;
+    left: 30px;
+}
+
+
+#parentdiv2 {
+    display: flex;
+    position: absolute;
+    top: 830px;
+    left: 30px;
+}
+
+
+#parentdiv3 {
+    display: flex;
+    position: absolute;
+    top: 1130px;
+    left: 30px;
+}
+
+
+#parentdiv4 {
+    display: flex;
+    position: absolute;
+    top: 1430px;
+    left: 30px;
+}
+
+
+#enddiv {
+    margin-right: 30px;
+}
+
+.smallimages {
+    height: 180px;
+    width: 200 px;
+    margin: 18px;
+    box-sizing: border-box;
+}
+
+.buy_button {
+    padding: 10px;
+    border: 2px solid #ccc;
+    width: 100px;
+    margin-left: 60px;
+    position: relative;
+    bottom: 15px;
+    box-sizing: border-box;
+}
+footer{
+    height : 260px;
+    width : 100%;
+    background-color: black;
+    float : left;
+    box-sizing: border-box;
+}
+#footer_left_div{
+    height : 260px;
+    width : 400px;
+    float : left;
+    box-sizing: border-box;
+}
+#footer_right_div{
+    height : 260px;
+    width : 300px;
+    float : right;
+    box-sizing: border-box;
+}
+#footer_title{
+    color : white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 8px;
+    font-style: normal;
+}
+#footer_title2{
+    color : white;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    margin-top: 8px;
+    font-style: normal;
+    margin-left: 55px;
+}
+.contact_us{
+    color: white;
+    font-size: 19px;
+    font-family : sans-serif;
+    font-style :normal;
+    padding : 10px;
+    padding-left: 30px;
+}
+#contact_us{
+    padding-bottom: 0;
+}
+.logo{
+    height : 60px;
+    padding : 5px;
+    margin-left: 5px;
+}
+#developer{
+    color : white;
+    font-family: century gothic;
+    float : left;
+    margin-top: 210px;
+    margin-left: 280px;
+}
+
+
+    </style>
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+    <header>
+        <h1 id="brand">SweetDelightsIndia.com</h1>
+        <p id="tagline">Taste the Sweet Side of Happiness</p>
+    </header>
+    <nav id="navbar">
+        <form>
+            <input id="searchbar" type="search" placeholder="Search your Sweets & Bakeries here">
+            <input id="submitbutton" type="submit" value="Search">
+        </form>
+
+        <table id="menutable">
+            <tr>
+                <td class="menurow"> <a href="index.html" class="menuitem">Home</a> </td>
+                <td class="menurow"> <a href="sweets.html" class="menuitem">Sweets</a> </td>
+                <td class="menurow"> <a href="bakeries.html" class="menuitem">Bakeries</a> </td>
+                <td class="menurow"> <a href="index.html#rightdiv" class="menuitem">About us</a> </td>
+                <td class="menurow"> <a href="#footer_left_div" class="menuitem">Contact us</a> </td>
+            </tr>
+        </table>
+    </nav>
+    <section>
+        <div>
+            <h1 id="heading_more_sweets">Our Sweets</h1>
+        </div>
+        <div id="parentdiv">
+            
+            <div class="smalldiv">
+                <img src="images/sweets_png/z.png" alt="img1" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv">
+                <img src="images/sweets_png/o.jpg" alt="img2" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv">
+
+                <img src="images/sweets_png/c.png" alt="img3" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv">
+                <img src="images/sweets_png/d.webp" alt="img4" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv">
+                <img src="images/sweets_png/e.webp" alt="img5" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv" id="enddiv">
+                <img src="images/sweets_png/p.webp" alt="img6" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+        </div>
+
+
+
+
+        <div id="parentdiv1">
+            
+            <div class="smalldiv1">
+                <img src="images/our sweets/aa.jpeg" alt="img1" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv1"> 
+                <img src="images/our sweets/cc.webp" alt="img2" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv1">
+
+                <img src="images/our sweets/e.webp" alt="img3" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv1">
+                <img src="images/our sweets/v.webp" alt="img4" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv1">
+                <img src="images/sweets_png/z.png" alt="img5" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv1" id="enddiv">
+                <img src="images/our sweets/ff.webp" alt="img6" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+        </div>
+
+
+
+
+        <div id="parentdiv2">
+            
+            <div class="smalldiv2">
+                <img src="images/our sweets/gg.jpeg" alt="img1" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv2">
+                <img src="images/sweets_png/d.webp" alt="img2" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv2">
+
+                <img src="images/our sweets/l.webp" alt="img3" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv2">
+                <img src="images/our sweets/m.jpg" alt="img4" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv2">
+                <img src="images/sweets_png/c.png" alt="img5" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv2" id="enddiv">
+                <img src="images/our sweets/w.webp" alt="img6" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div id="parentdiv3">
+            
+            <div class="smalldiv3">
+                <img src="images/sweets_png/p.webp" alt="img1" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv3">
+                <img src="images/our sweets/v.webp" alt="img2" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv3">
+
+                <img src="images/our sweets/ee.jpeg" alt="img3" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv3">
+                <img src="images/our sweets/cc.webp" alt="img4" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv3">
+                <img src="images/our sweets/l.webp" alt="img5" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv3" id="enddiv">
+                <img src="images/our sweets/s.png" alt="img6" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div id="parentdiv4">
+            
+            <div class="smalldiv4">
+                <img src="images/sweets_png/o.jpg" alt="img1" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv4">
+                <img src="images/sweets_png/e.webp" alt="img2" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv4">
+
+                <img src="images/sweets_png/z.png" alt="img3" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv4">
+                <img src="images/our sweets/aa.jpeg" alt="img4" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv4">
+                <img src="images/our sweets/m.jpg" alt="img5" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+            <div class="smalldiv4" id="enddiv">
+                <img src="images/our sweets/gg.jpeg" alt="img6" class="smallimages">
+                <a href="index.html#open_form">
+                    <button class="buy_button">Buy Now</button>
+                </a>
+            </div>
+        </div>
+
+        
+
+    </section>
+    <footer>
+        <div id="footer_left_div">
+            <h1 id="footer_title">Contact us</h1>
+            <address class="contact_us"><pre>Website : https://www.SweetDelightsIndia.com</pre></address>
+            <address class="contact_us"><pre>Email   : sweet_delights_india@gmail.com</pre></address>
+            <address class="contact_us"><pre>Contact : +91 86698 68218</pre></address>
+            <address class="contact_us" id="contact_us"><pre>Address : Shashtri Nagar Arni,</pre></address>
+            <address class="contact_us"><pre>                445103</pre></address>
+        </div>
+        <div id="developer">
+           Developed by : Vaibhav Chavhan 
+           <hr>
+        </div>
+        <div id="footer_right_div">
+            <h1 id="footer_title2">Follow us</h1>
+            <a href="https://www.facebook.com/vaibhav.chavhan.524?mibextid=ZbWKwL"><img src="images/logo/fb.png" alt="facebook_link" class="logo"></a>
+            <a href="http://www.linkedin.com/in/vaibhavchavhan/"><img src="images/logo/insta.webp" alt="instagram_link" class="logo"></a>
+            <a href="#"><img src="images/logo/linkedin1.png" alt="linkedin_link" class="logo"></a>
+            <a href="#"><img src="images/logo/x.png" alt="X_link" class="logo"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
